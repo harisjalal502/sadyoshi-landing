@@ -314,13 +314,6 @@ export default function Home() {
         }, enterTime + flight * 0.5)
       })
 
-      tl.fromTo(
-        ".ghost-title",
-        { opacity: 0 },
-        { opacity: 0.04, duration: 2, ease: "power1.in" },
-        1.5,
-      )
-
       tl.to(".vignette", {
         background:
           "radial-gradient(ellipse at center, transparent 5%, rgba(0,0,0,0.8) 40%, rgba(0,0,0,1) 100%)",
