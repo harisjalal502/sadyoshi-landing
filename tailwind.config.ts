@@ -8,7 +8,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ["system-ui", "sans-serif"],
-        serif: ["Cormorant Garamond", "Georgia", "serif"],
+        serif: ["var(--font-cormorant)", "Georgia", "serif"],
         mono: ["JetBrains Mono", "Fira Code", "monospace"],
       },
     },
